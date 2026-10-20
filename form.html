@@ -1,62 +1,62 @@
 <!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
   <body>
-    <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <title>Form</title>
-      <form id="What-is-your-favourite? name=Favourite-Game" method="get">
-        <fieldset form="What-is-your-favourite?">
-          <legend>What is your favourite Game?</legend>
+    <form id="What-is-your-favourite? name=Favourite-Game" method="get">
+      <fieldset form="What-is-your-favourite?">
+        <legend>What is your favourite Game?</legend>
 
-          <input type="radio" id="Minecraft" name="Minecraft" />
-          <label for="Minecraft">Minecraft</label><br />
+        <input type="radio" id="Minecraft" name="Minecraft" />
+        <label for="Minecraft">Minecraft</label><br />
 
-          <input type="radio" id="Roblox" name="Roblox" />
-          <label for="Roblox">Roblox</label><br />
+        <input type="radio" id="Roblox" name="Roblox" />
+        <label for="Roblox">Roblox</label><br />
 
-          <input type="radio" id="Other" name="Other Option" />
-          <label for="Other">Other</label><br />
+        <input type="radio" id="Other" name="Other Option" />
+        <label for="Other">Other</label><br />
 
-          <input type="radio" id="None" name="None" />
-          <label for="None">None of the above</label>
-        </fieldset>
+        <input type="radio" id="None" name="None" />
+        <label for="None">None of the above</label>
+      </fieldset>
+      <br />
+      <fieldset form="What-is-your-favourite?">
+        <legend>
+          What is your favourite thing to do when you're alone? Example:gaming
+        </legend>
+        <label id="favourite-alone">Enter answer here</label>
+        <input
+          type="text"
+          id="favourite-alone"
+          name="Favourite-thing-to-do-alone"
+          minlength="4"
+          required />
         <br />
-        <fieldset form="What-is-your-favourite?">
-          <legend>
-            What is your favourite thing to do when you're alone? Example:gaming
-          </legend>
-          <label id="favourite-alone">Enter answer here</label>
-          <input
-            type="text"
-            id="favourite-alone"
-            name="Favourite-thing-to-do-alone"
-            minlength="4"
-            required />
-          <br />
-          <br />
-        </fieldset>
-        <input type="submit" id="submit" value="Click to submit form" />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <input type="reset" id="reset" value="Reset Form" />
-      </form>
-      <form id="What-grade-are-you-in?" name="Grade" method="get"></form>
-      <fieldset form="What-grade-are-you-in?">
-        <legend>What Grade are you in?</legend>
-        <br />
-        <input type="radio" id="9-Grade" name="Grade9" />
-        <label for="9-Grade">Grade 9</label>
         <br />
       </fieldset>
-    </head>
+      <input type="submit" id="submit" value="Click to submit form" />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <input type="reset" id="reset" value="Reset Form" />
+    </form>
+    <form id="What-grade-are-you-in?" name="Grade" method="get"></form>
+    <fieldset form="What-grade-are-you-in?">
+      <legend>What Grade are you in?</legend>
+      <br />
+      <input type="radio" id="9-Grade" name="Grade9" />
+      <label for="9-Grade">Grade 9</label>
+      <br />
+    </fieldset>
   </body>
 </html>
